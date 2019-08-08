@@ -2,6 +2,7 @@ local _, qid = ...
 
 local questsNeverMarkedComplete = {
     804, -- Sarkoth
+    2158, -- Rest and Relaxation
 }
 
 local questIdMap = {}
