@@ -1,0 +1,9 @@
+## Interface: 11302
+## Title: Quest Icon Desaturation
+## Version: 1.0
+## LoadOnDemand: 0
+## Author: Sveng
+## Notes: Greys out icons at quest givers if you haven't completed that quest
+
+QuestsNeverMarkedComplete.lua
+QuestIconDesaturation.lua
