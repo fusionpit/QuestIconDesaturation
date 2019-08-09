@@ -4,6 +4,7 @@ local questsNeverMarkedComplete = {
     804, -- Sarkoth
     2158, -- Rest and Relaxation
     40, -- A Fishy Peril
+    360, -- Return to the Magistrate
 }
 
 local questIdMap = {}
