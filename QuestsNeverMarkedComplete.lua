@@ -5,6 +5,7 @@ local questsNeverMarkedComplete = {
     2158, -- Rest and Relaxation
     40, -- A Fishy Peril
     360, -- Return to the Magistrate
+    359, -- Forsaken Duties
 }
 
 local questIdMap = {}
