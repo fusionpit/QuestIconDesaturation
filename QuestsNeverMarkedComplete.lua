@@ -25,7 +25,6 @@ local questsNeverMarkedComplete = {
     172, -- Children's Week
     175, -- Look To The Stars
     215, -- Jungle Secrets
-    219, -- Missing In Action
     225, -- The Weathered Grave
     227, -- Morgan Ladimore
     229, -- The Daughter Who Lived
@@ -35,11 +34,9 @@ local questsNeverMarkedComplete = {
     244, -- Encroaching Gnolls
     247, -- The Hunt Completed
     270, -- The Doomed Fleet
-    273, -- Resupplying the Excavation
     283, -- A Dark Threat Looms
     302, -- Powder to Ironband
     305, -- In Search of The Excavation Team
-    309, -- Protecting the Shipment
     318, -- Evershine
     330, -- Patrol Schedules
     331, -- Report to Doren
@@ -58,10 +55,8 @@ local questsNeverMarkedComplete = {
     401, -- Wait for Sirra to Finish
     415, -- Rejold's New Brew
     428, -- Lost Deathstalkers
-    435, -- Escorting Erland
     436, -- Ironband's Excavation
     448, -- Report to Hadrec
-    452, -- Pyrewood Ambush
     454, -- After the Ambush
     458, -- The Woodland Protector
     463, -- The Greenwarden
@@ -79,7 +74,6 @@ local questsNeverMarkedComplete = {
     561, -- Farren's Proof
     583, -- Welcome to the Jungle
     588, -- The Fate of Yenniku
-    590, -- A Rogue's Deal
     594, -- Message in a Bottle
     597, -- The Bloodsail Buccaneers
     599, -- The Bloodsail Buccaneers
@@ -87,18 +81,14 @@ local questsNeverMarkedComplete = {
     616, -- The Haunted Isle
     634, -- Plea To The Alliance
     638, -- Trollbane
-    648, -- Rescue OOX-17/TN!
     649, -- Ripple Recovery
     650, -- Ripple Recovery
     653, -- Myzrael's Allies
     655, -- Hammerfall
     657, -- Hints of a New Plague?
     659, -- Hints of a New Plague?
-    660, -- Hints of a New Plague?
     661, -- Hints of a New Plague?
     663, -- Land Ho!
-    665, -- Sunken Treasure
-    667, -- Death From Below
     675, -- Raising Spirits
     686, -- A King's Tribute
     687, -- Theldurin the Lost
@@ -112,14 +102,10 @@ local questsNeverMarkedComplete = {
     726, -- Passing Word of a Threat
     729, -- The Absent Minded Prospector
     730, -- Trouble In Darkshore?
-    731, -- The Absent Minded Prospector
     734, -- This Is Going to Be Hard
     742, -- The Ashenvale Hunt
     752, -- A Humble Task
-    754, -- Winterhoof Cleansing
     755, -- Rites of the Earthmother
-    758, -- Thunderhorn Cleansing
-    760, -- Wildmane Cleansing
     767, -- Rite of Vision
     770, -- The Demon Scarred Cloak
     772, -- Rite of Vision
@@ -132,34 +118,23 @@ local questsNeverMarkedComplete = {
     809, -- Ak'Zeloth
     823, -- Report to Orgnil
     828, -- Margoz
-    836, -- Rescue OOX-09/HL!
     838, -- Scholomance
     847, -- Guile of the Raptor
     854, -- Journey to the Crossroads
     860, -- Sergra Darkthorn
-    863, -- The Escape
     869, -- Raptor Thieves
     874, -- Mahren Skyseer
     886, -- The Barrens Oases
-    898, -- Free From the Hold
-    910, -- Down at the Docks
-    911, -- Gateway to the Frontier
     920, -- Tenaron's Summons
     936, -- Assisting Arch Druid Runetotem
-    938, -- Mist
-    945, -- Therylune's Escape
     948, -- Onu
     965, -- The Tower of Althalaxx
     972, -- Water Sapta
-    975, -- Cache of Mau'ari
-    976, -- Supplies to Auberdine
     979, -- Find Ranshalla
     980, -- The New Springs
     981, -- The Tower of Althalaxx
     990, -- Trek to Ashenvale
     991, -- Raene's Cleansing
-    994, -- Escape Through Force
-    995, -- Escape Through Stealth
     1000, -- The New Frontier
     1004, -- The New Frontier
     1015, -- The New Frontier
@@ -168,7 +143,6 @@ local questsNeverMarkedComplete = {
     1021, -- Vile Satyr! Dryads in Danger!
     1029, -- Raene's Cleansing
     1030, -- Raene's Cleansing
-    1036, -- Avast Ye, Scallywag
     1037, -- Velinde Starsong
     1039, -- The Barrens Port
     1040, -- Passage to Booty Bay
@@ -188,8 +162,6 @@ local questsNeverMarkedComplete = {
     1081, -- Reception from Tyrande
     1082, -- Update for Sentinel Thenysil
     1085, -- On Guard in Stonetalon
-    1086, -- The Flying Machine Airport
-    1090, -- Gerenzo's Orders
     1095, -- Further Instructions
     1097, -- Elmore's Task
     1098, -- Deathstalkers in Shadowfang
@@ -199,13 +171,11 @@ local questsNeverMarkedComplete = {
     1132, -- Fiora Longears
     1133, -- Journey to Astranaar
     1137, -- News for Fizzle
-    1144, -- Willix the Importer
     1152, -- Test of Lore
     1159, -- Test of Lore
     1167, -- The Tower of Althalaxx
     1170, -- The Brood of Onyxia
     1171, -- The Brood of Onyxia
-    1173, -- Challenge Overlord Mok'Morokk
     1178, -- Goblin Sponsorship
     1180, -- Goblin Sponsorship
     1181, -- Goblin Sponsorship
@@ -215,11 +185,9 @@ local questsNeverMarkedComplete = {
     1191, -- Zamek's Distraction
     1194, -- Rizzle's Schematics
     1198, -- In Search of Thaelrid
-    1222, -- Stinky's Escape
     1246, -- The Missing Diplomat
     1247, -- The Missing Diplomat
     1248, -- The Missing Diplomat
-    1249, -- The Missing Diplomat
     1250, -- The Missing Diplomat
     1259, -- Lieutenant Paval Reethe
     1260, -- Morgan Stern
@@ -227,9 +195,7 @@ local questsNeverMarkedComplete = {
     1266, -- The Missing Diplomat
     1267, -- The Missing Diplomat
     1268, -- Suspicious Hoofprints
-    1270, -- Stinky's Escape
     1271, -- Feast at the Blue Recluse
-    1273, -- Questioning Reethe
     1274, -- The Missing Diplomat
     1282, -- They Call Him Smiling Jim
     1284, -- Suspicious Hoofprints
@@ -240,16 +206,11 @@ local questsNeverMarkedComplete = {
     1302, -- James Hyal
     1320, -- The Black Shield
     1323, -- The Black Shield
-    1324, -- The Missing Diplomat
     1339, -- Mountaineer Stormpike's Task
     1361, -- Regthar Deathgate
     1362, -- The Kolkar of Desolace
     1363, -- Mazen's Behest
-    1367, -- Magram Alliance
-    1368, -- Gelkis Alliance
     1372, -- Nothing But The Truth
-    1382, -- Strange Alliance
-    1385, -- Brutal Politics
     1394, -- Final Passage
     1418, -- Neeka Bloodscar
     1422, -- Threat From the Sea
@@ -259,9 +220,7 @@ local questsNeverMarkedComplete = {
     1433, -- Alliance Relations
     1436, -- Alliance Relations
     1438, -- Vahlarriel's Search
-    1440, -- Return to Vahlarriel
     1444, -- Return to Fel'Zerul
-    1447, -- The Missing Diplomat
     1449, -- To The Hinterlands
     1450, -- Gryphon Master Talonaxe
     1451, -- Rhapsody Shindigger
@@ -274,7 +233,6 @@ local questsNeverMarkedComplete = {
     1472, -- Devourer of Souls
     1477, -- Vital Supplies
     1478, -- Halgar's Summons
-    1479, -- The Bough of the Eternals
     1483, -- Ziz Fizziks
     1484, -- The Corrupter
     1489, -- Hamuul Runetotem
@@ -296,12 +254,9 @@ local questsNeverMarkedComplete = {
     1530, -- Call of Water
     1531, -- Call of Air
     1532, -- Call of Air
-    1558, -- The Stonewrought Dam
     1559, -- Flash Bomb Recipe
-    1560, -- Tooga's Quest
     1638, -- A Warrior's Training
     1639, -- Bartleby the Drunk
-    1640, -- Beat Bartleby
     1641, -- The Tome of Divinity
     1642, -- The Tome of Divinity
     1643, -- The Tome of Divinity
@@ -310,7 +265,6 @@ local questsNeverMarkedComplete = {
     1647, -- The Tome of Divinity
     1649, -- The Tome of Valor
     1650, -- The Tome of Valor
-    1651, -- The Tome of Valor
     1652, -- The Tome of Valor
     1653, -- The Test of Righteousness
     1661, -- The Tome of Nobility
@@ -320,7 +274,6 @@ local questsNeverMarkedComplete = {
     1682, -- Grey Iron Weapons
     1684, -- Elanaria
     1685, -- Gakin's Summons
-    1687, -- Spooky Lighthouse
     1693, -- Weapons of Elunite
     1698, -- Yorus Barleybrew
     1706, -- Grimand's Armor
@@ -345,7 +298,6 @@ local questsNeverMarkedComplete = {
     1793, -- The Tome of Valor
     1794, -- The Tome of Valor
     1798, -- Seeking Strahad
-    1800, -- Lordaeron Throne Room
     1801, -- Tome of the Cabal
     1806, -- The Test of Righteousness
     1818, -- Speak with Dillinger
@@ -374,7 +326,6 @@ local questsNeverMarkedComplete = {
     1946, -- Nether-lace Garment
     1947, -- Journey to the Marsh
     1949, -- Hidden Secrets
-    1950, -- Get the Scoop
     1952, -- Mage's Wand
     1953, -- Return to the Marsh
     1958, -- Celestial Power
@@ -402,50 +353,36 @@ local questsNeverMarkedComplete = {
     2382, -- Wrenix of Ratchet
     2398, -- The Lost Dwarves
     2459, -- Ferocitas the Dream Eater
-    2460, -- The Shattered Salute
-    2480, -- Hinott's Assistance
     2498, -- Return to Denalan
     2519, -- The Temple of the Moon
-    2520, -- Sathrah's Sacrifice
     2607, -- The Touch of Zanzil
-    2608, -- The Touch of Zanzil
     2621, -- The Disgraced One
     2622, -- The Missing Orders
     2662, -- Noggenfogger Elixir
     2702, -- Heroes of Old
     2721, -- Kirith
     2743, -- The Cover of Darkness
-    2744, -- The Demon Hunter
     2745, -- Infiltrating the Castle
-    2755, -- Joys of Omosh
     2764, -- Galvan's Finest Pupil
-    2765, -- Expert Blacksmith!
-    2767, -- Rescue OOX-22/FE!
     2769, -- The Brassbolts Brothers
     2783, -- Petty Squabbles
-    2784, -- Fall From Grace
-    2801, -- A Tale of Sorrow
     2842, -- Chief Engineer Scooty
-    2843, -- Gnomer-gooooone!
     2844, -- The Giant Guardian
     2861, -- Tabetha's Task
     2864, -- Tran'rek
     2867, -- Return to Feathermoon Stronghold
     2872, -- Stoley's Debt
-    2904, -- A Fine Mess
     2923, -- Tinkmaster Overspark
     2925, -- Klockmort's Essentials
     2927, -- The Day After
     2931, -- Castpipe's Task
     2935, -- Consult Master Gadrin
-    2936, -- The Spider God
     2939, -- In Search of Knowledge
     2940, -- Feralas: A History
     2963, -- Portents of Uldum
     2964, -- A Future Task
     2965, -- Portents of Uldum
     2968, -- A Future Task
-    2969, -- Freedom for All Creatures
     2981, -- A Threat in Feralas
     2983, -- Call of Fire
     2984, -- Call of Fire
@@ -462,33 +399,24 @@ local questsNeverMarkedComplete = {
     3001, -- Seeking Strahad
     3129, -- Weapons of Spirit
     3130, -- Against the Hatecrest
-    3141, -- Loramus
     3221, -- Speak with Renferrel
     3261, -- Jorn Skyseer
-    3321, -- Did You Lose This?
     3371, -- Dwarven Justice
-    3377, -- Prayer to Elune
     3380, -- The Sunken Temple
-    3382, -- A Crew Under Fire
     3402, -- The Undermarket
     3421, -- Return Trip
-    3441, -- Divine Retribution
     3445, -- The Sunken Temple
     3448, -- Passing the Burden
     3450, -- An Easy Pickup
     3451, -- Signal for Pickup
-    3453, -- The Torch of Retribution
     3462, -- Squire Maltrake
     3483, -- Signal for Pickup
     3503, -- Meeting with the Master
-    3508, -- Breaking the Ward
     3509, -- The Name of the Beast
     3512, -- In Eranikus' Own Words
     3519, -- A Friend in Need
-    3525, -- Extinguishing the Idol
     3567, -- To the Top
     3570, -- Seeping Corruption
-    3625, -- Enchanted Azsharite Fel Weaponry
     3626, -- Return to the Blasted Lands
     3631, -- Summon Felsteed
     3644, -- Membership Card Renewal
@@ -496,7 +424,6 @@ local questsNeverMarkedComplete = {
     3646, -- Membership Card Renewal
     3647, -- Membership Card Renewal
     3681, -- Tome of Divinity
-    3702, -- The Smoldering Ruins of Thaurissan
     3721, -- An OOX of Your Own
     3762, -- Assisting Arch Druid Runetotem
     3763, -- Assisting Arch Druid Staghelm
@@ -506,15 +433,12 @@ local questsNeverMarkedComplete = {
     3788, -- Jonespyre's Request
     3789, -- Assisting Arch Druid Staghelm
     3790, -- Assisting Arch Druid Staghelm
-    3801, -- Dark Iron Legacy
     3821, -- Dreadmaul Rock
     3903, -- Milly Osworth
     3912, -- Meet at the Grave
     3941, -- A Gnome's Assistance
     3942, -- Linken's Memory
     3981, -- Commander Gor'shak
-    3982, -- What Is Going On?
-    4001, -- What Is Going On?
     4002, -- The Eastern Kingdom
     4004, -- The Princess Saved?
     4122, -- Grark Lorkrub
@@ -523,25 +447,14 @@ local questsNeverMarkedComplete = {
     4130, -- Psychometric Reading
     4133, -- Vivian Lagrave
     4147, -- Marvon's Workshop
-    4185, -- The True Masters
     4223, -- The True Masters
-    4224, -- The True Masters
     4241, -- Marshal Windsor
     4242, -- Abandoned Hope
     4243, -- Chasing A-Me 01
-    4245, -- Chasing A-Me 01
-    4261, -- Ancient Spirit
-    4265, -- Freed from the Hive
     4266, -- A Hero's Welcome
-    4285, -- The Northern Pylon
-    4287, -- The Eastern Pylon
-    4288, -- The Western Pylon
     4298, -- Becoming a Parent
-    4321, -- Making Sense of It
-    4322, -- Jail Break!
     4324, -- Yuka Screwspigot
     4341, -- Kharan Mighthammer
-    4342, -- Kharan's Tale
     4361, -- The Bearer of Bad News
     4363, -- The Princess's Surprise
     4442, -- Purified!
@@ -551,11 +464,9 @@ local questsNeverMarkedComplete = {
     4488, -- Summon Felsteed
     4489, -- Summon Felsteed
     4490, -- Summon Felsteed
-    4491, -- A Little Help From My Friends
     4493, -- March of the Silithid
     4494, -- March of the Silithid
     4495, -- A Good Friend
-    4506, -- Corrupted Sabers
     4641, -- Your Place In The World
     4736, -- In Search of Menara Voidrender
     4737, -- In Search of Menara Voidrender
@@ -564,26 +475,19 @@ local questsNeverMarkedComplete = {
     4761, -- Thundris Windweaver
     4766, -- Mayara Brightwing
     4769, -- Vivian Lagrave and the Darkstone Tablet
-    4770, -- Homeward Bound
     4782, -- Components for the Enchanted Gold Bloodrobe
     4785, -- Fine Gold Thread
     4786, -- The Completed Robe
     4813, -- The Fragments Within
     4865, -- Serpent Wild
-    4866, -- Mother's Milk
     4881, -- Assassination Plot
-    4901, -- Guardians of the Altar
     4902, -- Wildkin of Elune
-    4904, -- Free at Last
     4907, -- Tinkee Steamboil
-    4941, -- Eitrigg's Wisdom
     4964, -- The Completed Orb of Dar'Orahil
     4965, -- Knowledge of the Orb of Orahil
-    4966, -- Protect Kanati Greycloud
     4967, -- Knowledge of the Orb of Orahil
     4968, -- Knowledge of the Orb of Orahil
     4969, -- Knowledge of the Orb of Orahil
-    4975, -- The Completed Orb of Noh'Orahil
     4981, -- Operative Bijou
     5057, -- Past Endeavors
     5066, -- A Call to Arms: The Plaguelands!
@@ -594,12 +498,10 @@ local questsNeverMarkedComplete = {
     5095, -- A Call to Arms: The Plaguelands!
     5103, -- Hot Fiery Death
     5125, -- Aurius' Reckoning
-    5126, -- Lorax's Tale
     5142, -- Little Pamela
     5152, -- Auntie Marlene
     5161, -- Wrath of the Blue Flight
     5162, -- Wrath of the Blue Flight
-    5203, -- Rescue From Jaedenar
     5215, -- The Scourge Cauldrons
     5228, -- The Scourge Cauldrons
     5237, -- Mission Accomplished!
@@ -662,13 +564,9 @@ local questsNeverMarkedComplete = {
     5677, -- Arcane Feedback
     5679, -- Devouring Plague
     5680, -- Shadowguard
-    5713, -- One Shot. One Kill.
     5722, -- Searching for the Lost Satchel
-    5727, -- Hidden Enemies
     5729, -- Hidden Enemies
     5730, -- Hidden Enemies
-    5742, -- Redemption
-    5821, -- Bodyguard for Hire
     5846, -- Of Love and Family
     5921, -- Moonglade
     5922, -- Moonglade
@@ -678,16 +576,9 @@ local questsNeverMarkedComplete = {
     5926, -- Heeding the Call
     5927, -- Heeding the Call
     5928, -- Heeding the Call
-    5929, -- Great Bear Spirit
-    5930, -- Great Bear Spirit
     5931, -- Back to Darnassus
     5932, -- Back to Thunder Bluff
-    5943, -- Gizelton Caravan
-    5944, -- In Dreams
-    5944, -- In Dreams
     5961, -- The Champion of the Banshee Queen
-    6001, -- Body and Heart
-    6002, -- Body and Heart
     6022, -- To Kill With Purpose
     6065, -- The Hunter's Path
     6066, -- The Hunter's Path
@@ -709,9 +600,7 @@ local questsNeverMarkedComplete = {
     6125, -- Power over Poison
     6126, -- Lessons Anew
     6130, -- Power over Poison
-    6132, -- Get Me Out of Here!
     6141, -- Brother Anton
-    6144, -- The Call to Command
     6147, -- Return to Nathanos
     6182, -- The First and the Last
     6183, -- Honor the Dead
@@ -722,14 +611,9 @@ local questsNeverMarkedComplete = {
     6383, -- The Ashenvale Hunt
     6401, -- Kaya's Alive
     6402, -- Stormwind Rendezvous
-    6403, -- The Great Masquerade
-    6482, -- Freedom to Ruul
-    6523, -- Protect Kaya
     6541, -- Report to Kadrak
     6542, -- Report to Kadrak
-    6544, -- Torek's Assault
     6562, -- Trouble in the Deeps
-    6566, -- What the Wind Carries
     6567, -- The Champion of the Horde
     6570, -- Emberstrife
     6603, -- Trouble in Winterspring!
@@ -740,47 +624,31 @@ local questsNeverMarkedComplete = {
     6609, -- I Got Nothin' Left!
     6611, -- To Gadgetzan You Go!
     6612, -- I Know A Guy...
-    6622, -- Triage
     6623, -- Horde Trauma
-    6624, -- Triage
     6625, -- Alliance Trauma
-    6627, -- Test of Lore
-    6628, -- Test of Lore
-    6641, -- Vorsha the Lasher
     6721, -- The Hunter's Path
     6722, -- The Hunter's Path
     6761, -- The New Frontier
     6762, -- Rabine Saturna
-    6823, -- Agent of Hydraxis
     6845, -- Uncovering Past Secrets
-    6847, -- Master Ryson's All Seeing Eye
-    6848, -- Master Ryson's All Seeing Eye
     6961, -- Great-father Winter is Here!
     6963, -- Stolen Winter Veil Treats
     6964, -- The Reason for the Season
-    6981, -- The Glowing Shard
     6984, -- A Smokywood Pastures Thank You!
-    7001, -- Empty Stables
     7021, -- Great-father Winter is Here!
     7022, -- Greatfather Winter is Here!
     7023, -- Greatfather Winter is Here!
     7024, -- Great-father Winter is Here!
-    7027, -- Empty Stables
     7042, -- Stolen Winter Veil Treats
     7042, -- Stolen Winter Veil Treats
     7045, -- A Smokywood Pastures Thank You!
-    7046, -- The Scepter of Celebras
     7062, -- The Reason for the Season
     7121, -- The Quartermaster
     7123, -- Speak with our Quartermaster
-    7141, -- The Battle of Alterac
-    7142, -- The Battle for Alterac
     7221, -- Speak with Prospector Stonehewer
     7222, -- Speak with Voggah Deathgrip
     7241, -- In Defense of Frostwolf
     7261, -- The Sovereign Imperative
-    7481, -- Elven Legends
-    7482, -- Elven Legends
     7491, -- For All To See
     7492, -- Camp Mojache
     7493, -- The Journey Has Just Begun
@@ -791,7 +659,6 @@ local questsNeverMarkedComplete = {
     7562, -- Mor'zul Bloodbringer
     7601, -- What Niby Commands
     7621, -- A Warning
-    7622, -- The Balance of Light and Shadow
     7623, -- Lord Banehollow
     7633, -- An Introduction
     7637, -- Emphasis on Sacrifice
@@ -802,7 +669,6 @@ local questsNeverMarkedComplete = {
     7782, -- The Lord of Blackrock
     7784, -- The Lord of Blackrock
     7810, -- Arena Master
-    7843, -- The Final Message to the Wildhammer
     7845, -- Kidnapped Elder Torntusk!
     7847, -- Return to Primal Torntusk
     7863, -- Sentinel Basic Care Package
@@ -814,52 +680,18 @@ local questsNeverMarkedComplete = {
     8041, -- Strength of Mount Mugamba
     8045, -- The Heathen's Brand
     8049, -- The Eye of Zuldazar
-    8053, -- Paragons of Power: The Freethinker's Armguards
-    8054, -- Paragons of Power: The Freethinker's Belt
-    8055, -- Paragons of Power: The Freethinker's Breastplate
-    8056, -- Paragons of Power: The Augur's Bracers
-    8057, -- Paragons of Power: The Haruspex's Bracers
-    8058, -- Paragons of Power: The Vindicator's Armguards
-    8059, -- Paragons of Power: The Demoniac's Wraps
-    8060, -- Paragons of Power: The Illusionist's Wraps
-    8061, -- Paragons of Power: The Confessor's Wraps
-    8062, -- Paragons of Power: The Predator's Bracers
-    8063, -- Paragons of Power: The Madcap's Bracers
-    8064, -- Paragons of Power: The Haruspex's Belt
-    8065, -- Paragons of Power: The Haruspex's Tunic
-    8066, -- Paragons of Power: The Predator's Belt
-    8067, -- Paragons of Power: The Predator's Mantle
-    8068, -- Paragons of Power: The Illusionist's Mantle
-    8069, -- Paragons of Power: The Illusionist's Robes
-    8070, -- Paragons of Power: The Confessor's Bindings
-    8071, -- Paragons of Power: The Confessor's Mantle
-    8072, -- Paragons of Power: The Madcap's Mantle
-    8073, -- Paragons of Power: The Madcap's Tunic
-    8074, -- Paragons of Power: The Augur's Belt
-    8075, -- Paragons of Power: The Augur's Hauberk
-    8076, -- Paragons of Power: The Demoniac's Mantle
-    8077, -- Paragons of Power: The Demoniac's Robes
-    8078, -- Paragons of Power: The Vindicator's Belt
-    8079, -- Paragons of Power: The Vindicator's Breastplate
     8101, -- The Pebble of Kajaro
     8106, -- Kezan's Taint
     8110, -- Enchanted South Seas Kelp
-    8114, -- Control Four Bases
-    8115, -- Control Five Bases
     8116, -- Vision of Voodress
-    8121, -- Take Four Bases
-    8122, -- Take Five Bases
     8141, -- Zandalarian Shadow Talisman
     8145, -- The Maelstrom's Tendril
-    8149, -- Honoring a Hero
-    8150, -- Honoring a Hero
     8151, -- The Hunter's Charm
     8181, -- Confront Yeh'kinya
     8182, -- The Hand of Rastakhan
     8228, -- Could I get a Fishing Flier?
     8229, -- Could I get a Fishing Flier?
     8233, -- A Simple Request
-    8240, -- A Bijou for Zanza
     8250, -- Magecraft
     8254, -- Cenarion Aid
     8260, -- Arathor Basic Care Package
@@ -879,15 +711,6 @@ local questsNeverMarkedComplete = {
     8343, -- Goldleaf's Discovery
     8349, -- Bor Wildmane
     8351, -- Bor Wishes to Speak
-    8353, -- Chicken Clucking for a Mint
-    8354, -- Chicken Clucking for a Mint
-    8355, -- Incoming Gumdrop
-    8356, -- Flexing for Nougat
-    8357, -- Dancing for Marzipan
-    8358, -- Incoming Gumdrop
-    8359, -- Flexing for Nougat
-    8360, -- Dancing for Marzipan
-    8373, -- The Power of Pine
     8376, -- Armaments of War
     8377, -- Armaments of War
     8378, -- Armaments of War
@@ -898,10 +721,8 @@ local questsNeverMarkedComplete = {
     8409, -- Ruined Kegs
     8415, -- Chillwind Point
     8417, -- A Troubled Spirit
-    8447, -- Waking Legends
     8462, -- Speak to Nafien
     8465, -- Speak to Salfa
-    8519, -- A Pawn on the Eternal Board
     8553, -- The Captain's Cutlass
     8555, -- The Charge of the Dragonflights
     8576, -- Translating the Ledger
@@ -957,7 +778,6 @@ local questsNeverMarkedComplete = {
     8727, -- Farwhisper the Elder
     8733, -- Eranikus, Tyrant of the Dream
     8734, -- Tyrande and Remulos
-    8736, -- The Nightmare Manifests
     8742, -- The Might of Kalimdor
     8745, -- Treasure of the Timeless One
     8747, -- The Path of the Protector
@@ -974,13 +794,6 @@ local questsNeverMarkedComplete = {
     8827, -- Winter's Presents
     8828, -- Winter's Presents
     8866, -- Bronzebeard the Elder
-    8868, -- Elune's Blessing
-    8870, -- The Lunar Festival
-    8871, -- The Lunar Festival
-    8872, -- The Lunar Festival
-    8873, -- The Lunar Festival
-    8874, -- The Lunar Festival
-    8875, -- The Lunar Festival
     8883, -- Valadar Starsong
     8929, -- In Search of Anthion
     8930, -- In Search of Anthion
@@ -996,9 +809,7 @@ local questsNeverMarkedComplete = {
     9027, -- Tracing the Source
     9028, -- The Source Revealed
     9032, -- Bodley's Unfortunate Fate
-    9051, -- Toxic Test
     9063, -- Torwa Pathfinder
-    9123, -- The Dread Citadel - Naxxramas
     9272, -- Dressing the Part
     9339, -- A Thief's Reward
     9365, -- A Thief's Reward
