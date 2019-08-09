@@ -1,3 +1,6 @@
+* 3.0
+    - Changed completeness to use `IsQuestComplete` instead of a map of quest ids
+
 * 2.0
     - Most quests in the world that are never marked "Complete" should be handled
 

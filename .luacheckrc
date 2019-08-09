@@ -7,5 +7,6 @@ read_globals = {
     "hooksecurefunc",
     "GetNumQuestLogEntries",
     "GetQuestLogTitle",
+    "IsQuestComplete",
     "NUMGOSSIPBUTTONS"
 }

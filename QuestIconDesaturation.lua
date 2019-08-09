@@ -1,5 +1,3 @@
-local _, qid = ...
-
 local _G = _G
 local tinsert = tinsert
 local wipe = wipe
@@ -7,6 +5,7 @@ local gsub = gsub
 local hooksecurefunc = hooksecurefunc
 local GetNumQuestLogEntries = GetNumQuestLogEntries
 local GetQuestLogTitle = GetQuestLogTitle
+local IsQuestComplete = IsQuestComplete
 local MAX_NUM_QUESTS = MAX_NUM_QUESTS
 local NUMGOSSIPBUTTONS = NUMGOSSIPBUTTONS
 local QuestFrameGreetingPanel = QuestFrameGreetingPanel
@@ -29,7 +28,7 @@ local function getCompletedQuestsInLog()
     local questLogTitleText, isComplete, questId
     for i = 1, numEntries, 1 do
         questLogTitleText, _, _, _, _, isComplete, _, questId = GetQuestLogTitle(i)
-        if (isComplete == 1 or qid.QuestsNeverMarkedComplete[questId]) then
+        if (isComplete == 1 or IsQuestComplete(questId)) then
             completedActiveQuests[questLogTitleText] = true
         end
     end

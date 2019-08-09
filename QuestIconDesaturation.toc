@@ -7,5 +7,4 @@
 ## X-Curse-Project-ID: 334517
 ## X-WoWI-ID: 25083
 
-QuestsNeverMarkedComplete.lua
 QuestIconDesaturation.lua
