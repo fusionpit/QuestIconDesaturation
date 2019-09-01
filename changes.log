@@ -1,3 +1,6 @@
+* 3.1
+    - Fixed issue with AddOns that display quest level in quest log
+
 * 3.0
     - Changed completeness to use `IsQuestComplete` instead of a map of quest ids
 
