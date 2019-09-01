@@ -6,6 +6,7 @@ local hooksecurefunc = hooksecurefunc
 local GetNumQuestLogEntries = GetNumQuestLogEntries
 local GetQuestLogTitle = GetQuestLogTitle
 local IsQuestComplete = IsQuestComplete
+local C_QuestLog = C_QuestLog
 local MAX_NUM_QUESTS = MAX_NUM_QUESTS
 local NUMGOSSIPBUTTONS = NUMGOSSIPBUTTONS
 local QuestFrameGreetingPanel = QuestFrameGreetingPanel
@@ -25,10 +26,11 @@ local completedActiveQuests = {}
 local function getCompletedQuestsInLog()
     wipe(completedActiveQuests)
     local numEntries = GetNumQuestLogEntries()
-    local questLogTitleText, isComplete, questId
+    local questLogTitleText, isComplete, questId, _
     for i = 1, numEntries, 1 do
-        questLogTitleText, _, _, _, _, isComplete, _, questId = GetQuestLogTitle(i)
+        _, _, _, _, _, isComplete, _, questId = GetQuestLogTitle(i)
         if (isComplete == 1 or IsQuestComplete(questId)) then
+            questLogTitleText = C_QuestLog.GetQuestInfo(questId)
             completedActiveQuests[questLogTitleText] = true
         end
     end
