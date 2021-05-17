@@ -1,0 +1,10 @@
+## Interface: 11307
+## Title: Quest Icon Desaturation
+## Version: @project-version@
+## LoadOnDemand: 0
+## Author: Sveng
+## Notes: Greys out icons at quest givers if you haven't completed that quest
+## X-Curse-Project-ID: 334517
+## X-WoWI-ID: 25083
+
+QuestIconDesaturation.lua
