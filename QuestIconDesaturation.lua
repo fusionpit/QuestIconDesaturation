@@ -8,7 +8,7 @@ local GetQuestLogTitle = GetQuestLogTitle
 local IsQuestComplete = IsQuestComplete
 local C_QuestLog = C_QuestLog
 local MAX_NUM_QUESTS = MAX_NUM_QUESTS
-local NUMGOSSIPBUTTONS = NUMGOSSIPBUTTONS
+local NUMGOSSIPBUTTONS = 32 -- no longer a constant as of wotlk classic ulduar patch
 local QuestFrameGreetingPanel = QuestFrameGreetingPanel
 
 local escapes = {
@@ -78,18 +78,18 @@ QuestFrameGreetingPanel:HookScript(
     end
 )
 
-local gossipFrameTitleLines, gossipFrameIconTextures =
-    getLineAndIconMaps(NUMGOSSIPBUTTONS, "GossipTitleButton", "GossipIcon")
-hooksecurefunc(
-    "GossipFrameUpdate",
-    function()
-        setDesaturation(
-            NUMGOSSIPBUTTONS,
-            gossipFrameTitleLines,
-            gossipFrameIconTextures,
-            function(line)
-                return line.type == "Active"
+local oldSetup = GossipActiveQuestButtonMixin.Setup
+function GossipActiveQuestButtonMixin:Setup(...)
+    oldSetup(self, ...)
+    if self.GetElementData ~= nil then
+        local info = self.GetElementData().info
+        if info ~= nil then
+            if not info.isComplete and not IsQuestComplete(info.questID) then
+                self.Icon:SetDesaturated(1)
+            else
+                self.Icon:SetDesaturated(nil)
             end
-        )
+        end
     end
-)
+
+end

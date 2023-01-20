@@ -8,5 +8,9 @@ read_globals = {
     "GetNumQuestLogEntries",
     "GetQuestLogTitle",
     "IsQuestComplete",
-    "NUMGOSSIPBUTTONS"
+    "NUMGOSSIPBUTTONS",
+    "C_QuestLog",
+}
+globals = {
+    "GossipActiveQuestButtonMixin",
 }
