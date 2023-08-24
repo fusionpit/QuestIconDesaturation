@@ -1,3 +1,6 @@
+* 3.4.1
+    - Update toc interface versions
+
 * 3.4
     - Fix gossip frame hooks after blizz's refactor of that frame
 
