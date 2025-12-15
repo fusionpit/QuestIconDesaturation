@@ -1,4 +1,4 @@
-## Interface: 11507
+## Interface: 11508
 ## Title: Quest Icon Desaturation
 ## Version: @project-version@
 ## LoadOnDemand: 0
